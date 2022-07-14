@@ -14,7 +14,7 @@ class infinityrecycle(private val context : Context) :
 RecyclerView.Adapter<infinityrecycle.ViewHolder>() {
 
     var datas = mutableListOf<ProfileData>()
-
+//
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.test_infinity_recycle,parent,false)
