@@ -21,7 +21,7 @@ RecyclerView.Adapter<infinityrecycle.ViewHolder>() {
         return ViewHolder(view)
     }
 
-
+////
     override fun getItemCount(): Int = datas.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
